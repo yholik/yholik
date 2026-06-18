@@ -1,0 +1,60 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="640" fill="#0d1117"/>
+
+  <!-- Codigo fondo izquierda -->
+  <text x="40" y="60" font-family="monospace" font-size="14" fill="#3a7a3a">using System;</text>
+  <text x="40" y="85" font-family="monospace" font-size="14" fill="#3a7a3a">using Microsoft.AspNetCore.Mvc;</text>
+  <text x="40" y="110" font-family="monospace" font-size="14" fill="#3a8a4a">namespace App.Controllers {</text>
+  <text x="40" y="135" font-family="monospace" font-size="14" fill="#3a8a4a">  public class DevController {</text>
+  <text x="40" y="160" font-family="monospace" font-size="14" fill="#3a8a4a">    string name = "Yamila";</text>
+  <text x="40" y="185" font-family="monospace" font-size="14" fill="#3a8a4a">    bool ready = true;</text>
+  <text x="40" y="210" font-family="monospace" font-size="14" fill="#3a8a4a">  }</text>
+  <text x="40" y="235" font-family="monospace" font-size="14" fill="#3a7a3a">}</text>
+  <text x="40" y="285" font-family="monospace" font-size="14" fill="#2a5a6a">&lt;?php</text>
+  <text x="40" y="310" font-family="monospace" font-size="14" fill="#2a5a6a">$dev = new Developer();</text>
+  <text x="40" y="335" font-family="monospace" font-size="14" fill="#2a5a6a">$dev->stack = ['.NET','PHP','JS','C#'];</text>
+  <text x="40" y="360" font-family="monospace" font-size="14" fill="#2a5a6a">$dev->build();</text>
+  <text x="40" y="385" font-family="monospace" font-size="14" fill="#2a5a6a">?&gt;</text>
+  <text x="40" y="435" font-family="monospace" font-size="14" fill="#2a6a4a">while (learning) {</text>
+  <text x="40" y="460" font-family="monospace" font-size="14" fill="#2a6a4a">  skills.push(newTech);</text>
+  <text x="40" y="485" font-family="monospace" font-size="14" fill="#2a6a4a">}</text>
+  <text x="40" y="535" font-family="monospace" font-size="14" fill="#3a7a3a">// 6 años aprendiendo</text>
+  <text x="40" y="560" font-family="monospace" font-size="14" fill="#3a7a3a">// siempre en modo build</text>
+  <text x="40" y="610" font-family="monospace" font-size="14" fill="#2a5a6a">export default SoftwareDeveloper;</text>
+
+  <!-- Codigo fondo derecha -->
+  <text x="900" y="60" font-family="monospace" font-size="14" fill="#2a6a4a">if (challenge.isHard()) {</text>
+  <text x="900" y="85" font-family="monospace" font-size="14" fill="#2a6a4a">  yamila.accepts();</text>
+  <text x="900" y="110" font-family="monospace" font-size="14" fill="#2a6a4a">}</text>
+  <text x="900" y="160" font-family="monospace" font-size="14" fill="#3a7a3a">app.get('/hire', (req, res) => {</text>
+  <text x="900" y="185" font-family="monospace" font-size="14" fill="#3a7a3a">  res.send('Yamila ready');</text>
+  <text x="900" y="210" font-family="monospace" font-size="14" fill="#3a7a3a">});</text>
+  <text x="900" y="260" font-family="monospace" font-size="14" fill="#3a8a4a">var app = builder.Build();</text>
+  <text x="900" y="285" font-family="monospace" font-size="14" fill="#3a8a4a">app.MapControllers();</text>
+  <text x="900" y="310" font-family="monospace" font-size="14" fill="#3a8a4a">app.Run();</text>
+  <text x="900" y="360" font-family="monospace" font-size="14" fill="#2a5a6a">const app = express();</text>
+  <text x="900" y="385" font-family="monospace" font-size="14" fill="#2a5a6a">app.listen(3000);</text>
+  <text x="900" y="435" font-family="monospace" font-size="14" fill="#3a7a3a">import { curiosity }</text>
+  <text x="900" y="460" font-family="monospace" font-size="14" fill="#3a7a3a">  from 'yamila';</text>
+  <text x="900" y="510" font-family="monospace" font-size="14" fill="#2a6a4a">// Buenos Aires · open to hybrid</text>
+  <text x="900" y="560" font-family="monospace" font-size="14" fill="#3a7a3a">// siempre en modo build</text>
+  <text x="900" y="610" font-family="monospace" font-size="14" fill="#2a5a6a">export default SoftwareDeveloper;</text>
+
+  <!-- Nombre, titulo y stack centrados -->
+  <text x="640" y="255" font-family="monospace" font-size="64" font-weight="700" fill="#1D9E75" text-anchor="middle" letter-spacing="2">Yamila Holik</text>
+  <text x="640" y="310" font-family="monospace" font-size="26" fill="#5DCAA5" text-anchor="middle" letter-spacing="1">Software Developer</text>
+  <text x="640" y="360" font-family="monospace" font-size="17" fill="#8b949e" text-anchor="middle">C# · ASP.NET · PHP · JavaScript</text>
+
+  <line x1="420" y1="388" x2="860" y2="388" stroke="#1D9E75" stroke-width="1" opacity="0.5"/>
+
+  <!-- LinkedIn: icono path directo + texto, centrado en x=640 -->
+  <!-- texto "linkedin.com/in/Yamila-Holik" ~220px ancho a font-size 15 monospace -->
+  <!-- icono 20px + gap 8px + texto 220px = 248px total, inicio en 640-124=516 -->
+  <!-- icono LinkedIn como path con transform en lugar de svg anidado -->
+  <g transform="translate(516, 405)">
+    <rect width="20" height="20" rx="3" fill="#8b949e"/>
+    <text x="10" y="15" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#0d1117" text-anchor="middle">in</text>
+  </g>
+  <text x="544" y="420" font-family="monospace" font-size="15" fill="#8b949e">linkedin.com/in/YamilaHolik</text>
+
+</svg>
